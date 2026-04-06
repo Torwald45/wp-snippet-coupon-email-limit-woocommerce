@@ -1,6 +1,6 @@
 # WP Snippet: Newsletter Coupon - Email Limit & Login Enforcement
 
-Forces user login and limits WooCommerce coupon usage to once per email address.
+Forces user login and limits Woo coupon usage to once per email address.
 
 ## Features
 
@@ -12,8 +12,8 @@ Forces user login and limits WooCommerce coupon usage to once per email address.
 
 ## Requirements
 
-- WordPress 5.0 or higher
-- WooCommerce 3.0 or higher
+- WP 5.0 or higher
+- Woo 3.0 or higher
 - PHP 7.4 or higher
 
 ## Installation
@@ -42,9 +42,9 @@ Edit line 20 in the PHP file to change the coupon code:
 $coupon_code = 'BLABLA10'; // Change to your coupon code
 ```
 
-### Creating the Coupon in WooCommerce
+### Creating the Coupon in Woo
 
-1. Go to WooCommerce → Coupons
+1. Go to Woo → Coupons
 2. Create a new coupon with the same code (e.g., BLABLA10)
 3. Set your desired discount amount and other settings
 4. Publish the coupon
